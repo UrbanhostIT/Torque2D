@@ -1,0 +1,23 @@
+# my test doc for learning purposes 
+public class car{
+public static void main( String args[] ){
+
+ 
+ static String color;
+ static int tyres;
+ static String type;
+ 
+describecar(Audi,red);
+
+}
+
+
+
+public void describecar(String mycartype, String mycarcolor ){
+  color = mycartype;
+  type  = mycarcolor;
+
+System.out.printf("My car is of type %s and of color %s",type,color);
+}
+
+}
